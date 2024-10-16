@@ -19,7 +19,7 @@ This project demonstrates how to publish messages to Google Cloud Pub/Sub from a
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/Abhik79/PubSub-Dataflow-Integrations.git
 cd yourrepository
 ```
 
@@ -27,6 +27,7 @@ cd yourrepository
 
 Create a virtual environment and install the required dependencies using the `requirements.txt`:
 
+The step is also provided inside bothe the Jupyter notebooks.
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -94,9 +95,6 @@ The Dataflow pipeline writes the data to a BigQuery table with the following sch
 - The Dataflow pipeline uses a fixed window of 20 seconds for processing incoming messages.
 - Modify the window size and SQL transformations as needed in the `Dataflow Consumer.ipynb` notebook.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Contributing
 
