@@ -27,7 +27,7 @@ cd yourrepository
 
 Create a virtual environment and install the required dependencies using the `requirements.txt`:
 
-The step is also provided inside bothe the Jupyter notebooks.
+The step is also provided inside both the Jupyter notebooks.
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -102,7 +102,7 @@ Feel free to open issues or submit pull requests for improvements or bug fixes.
 
 ---
 
-**Author**: [Your Name](https://github.com/yourusername)
+**Author**: [Abhik Saha](https://github.com/Abhik79)
 ```
 
 Make sure to replace placeholders like `yourusername`, `yourrepository`, and `<json-file-name>` with your actual GitHub username, repository name, and the service account key filename, respectively. This `README.md` provides an overview of the project, setup instructions, and guidance on how to run the Jupyter notebooks.
